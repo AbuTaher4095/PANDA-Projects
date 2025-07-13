@@ -1,18 +1,86 @@
+/* common css */
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+.panda-btn{
+    border-radius: 6px;
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    padding: 15px 35px;
+    border: none;
+    color: white;
+    font-weight: bold;
+
+}
 nav{
     display: flex;
     justify-content: space-between;
 }
 .search-parent{
-    
+    position: relative;
+    color: #bababa;
 }
 .search-parent input{
     background-color: rgb(241, 241, 241);
     border-radius: 66px;
     padding: 15px 20px;
     width: 508.94px;
+    border: none;
 
 }
-..search-parent i{
-    position: relative;
-    
+.search-parent i{
+    position: absolute;
+    top: 17px;
+    right: 20px;
+
+
+}
+.nav-item{
+    display: flex;
+ list-style: none;
+ gap: 10px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+    font-size: 16px;
+font-weight: 600;
+}
+.Banner{
+    background-color: rgb(254, 234, 233);
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    padding: 28px;
+    border-radius:  15px;
+    margin-top: 25px;
+}
+.Banner img{
+    width: 402px;
+height: 378px;
+}
+.Banner h2{
+    color: rgb(31, 31, 31);
+font-size: 56px;
+font-weight: 700;
+line-height: 84px;
+/* letter-spacing: 0%;
+text-align: left; */
+}
+.Banner p{
+    color: rgb(78, 78, 78);
+    max-width: 400px;
+}
+.banner-price{
+    color: rgb(255, 19, 111);
+    font-size: 51px;
+    font-weight: bold;
+    display: block;
 }
