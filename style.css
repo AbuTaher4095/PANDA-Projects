@@ -2,6 +2,7 @@
 
 *{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .container{
@@ -21,7 +22,9 @@
 .common-section-title{
     font-weight: 600;
     font-size: 36px;
+    
     }
+    
 nav{
     display: flex;
     justify-content: space-between;
@@ -90,6 +93,10 @@ text-align: left; */
     display: block;
 }
 /* categories card */
+.categories{
+    margin: auto;
+  
+}
 .categories-card-conatainer{
     display: flex;
     gap: 26px;
@@ -122,4 +129,62 @@ flex: 1;
     font-weight: bold;
     font-size: 35px;
 }
-
+/* shoes */
+.shoes-section{
+    ;
+    padding:  50px 0px;
+}
+.shoes-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.shoes-card {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+}
+.shoes-card img{
+    width: 336px;
+height: 202px;
+}
+.shoes-card .panda-btn{
+    background: black;
+}
+.shoes-backpack-parent{
+ background: rgb(244, 244, 244) ;
+}
+.shoes-backpack-title{
+    display: flex;
+    justify-content: space-between;
+}
+.shoes-backpack-title p{
+    font-size: 20px;
+font-weight: 500;
+color: rgb(255, 157, 0);
+}
+.shoes-backpack-title h2{
+    font-size: 36px;
+}
+.card-price{
+    display: block;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.contact-us{
+    background: rgb(255, 242, 241);
+    text-align: center;
+    padding: 35px 25px;
+    margin:auto;
+    border-radius: 15px;
+}
+.contact-input-parent input{
+    border: none;
+    padding: 15px 150px;
+}
+.contact-input-parent{
+    display: flex;
+    justify-content: center;
+}
